@@ -1,0 +1,31 @@
+.button {
+  position: relative;
+  padding: var(--token-12) var(--token-16);
+  background: var(--primary);
+  border: none;
+  border-radius: var(--token-24);
+  display: block;
+  font-size: var(--font-size-medium);
+  font-weight: 500;
+  transition: opacity 0.2s;
+  cursor: pointer;
+}
+
+.button span {
+  color: var(--grey-00);
+}
+
+.button:hover {
+  opacity: 0.8;
+}
+
+.button:disabled {
+  background: var(--grey-40);
+}
+
+.spinnerContainer {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
